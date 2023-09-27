@@ -1,0 +1,900 @@
+:root {
+	font-size: 10px;
+
+	/* colors */
+	--color-primary: #080a52;
+	--color-secondary: #062c53;
+	--color-white: #fff;
+	--color-black: #00020a;
+
+	/* typography */
+	--sl-font-size: 1.8rem;
+	--sd-font-size: 2rem;
+	--md-font-size: 2.5rem;
+	--bgt-font-size: 3.5rem;
+
+	--h1-font-size: 4rem;
+	--h2-font-size: 4rem;
+
+	/* measures */
+	--sl-default-value: 2rem;
+	--sd-default-value: 4rem;
+	--md-default-value: 8rem;
+	--bgt-default-value: 12rem;
+
+	/* icons */
+	--icons-default-value: 5rem;
+}
+
+/* CSS reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* CSS global */
+body {
+	width: 100%;
+	height: 100vh;
+
+	font-family: "Nunito", sans-serif;
+	font-size: var(--sd-font-size);
+}
+
+h1,
+h2 {
+	font-weight: 700;
+	color: var(--color-secondary);
+}
+
+h3 {
+	font-weight: 400;
+	color: var(--color-white);
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	color: var(--color-primary);
+}
+
+ul {
+	list-style: none;
+}
+
+span {
+	display: inline-block;
+}
+
+/* registration-closed */
+.registration-closed {
+	width: 100%;
+	background-color: var(--color-primary);
+	color: var(--color-white);
+	font-size: var(--sl-font-size);
+}
+
+/* registration-closed-info */
+.registration-closed-info {
+	padding: 1.25rem var(--sl-default-value);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.registration-closed-info p {
+	text-transform: uppercase;
+	margin-bottom: 0.6rem;
+}
+
+.registration-closed-info span a {
+	display: none;
+	color: var(--color-white);
+	text-decoration: underline;
+}
+
+/* container */
+#container {
+	display: grid;
+	grid-template-areas:
+		"header"
+		"panel-info"
+		"about-us"
+		"postgraduate-program"
+		"lectures"
+		"short-courses"
+		"registration"
+		"footer";
+
+	max-width: 1250px;
+	margin: 0 auto;
+	padding: 3rem 2%;
+}
+
+/* header-container */
+.header-container {
+	grid-area: header;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* logo */
+.logo {
+	max-width: 350px;
+}
+
+.logo img {
+	width: 100%;
+}
+
+/* menu */
+.menu {
+	display: flex;
+	align-items: center;
+}
+
+.menu li {
+	margin-right: 0.8rem;
+}
+
+.menu li a {
+	padding: 1rem;
+
+	font-size: var(--md-font-size);
+	font-weight: 600;
+	color: var(--color-secondary);
+}
+
+.menu li:last-child {
+	margin-right: 0;
+}
+
+/* panel-info */
+.panel-info {
+	grid-area: panel-info;
+	display: grid;
+	grid-template-columns: repeat(2, minmax(auto, 45%));
+	column-gap: var(--sd-default-value);
+	justify-content: space-between;
+	align-items: center;
+
+	margin: var(--sd-default-value) 0;
+}
+
+/* panel-content */
+.panel-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.panel-content h1 {
+	font-size: var(--h1-font-size);
+	font-weight: 700;
+	color: var(--color-secondary);
+
+	white-space: pre-line;
+}
+
+/* panel-image */
+.panel-image {
+	max-width: 518px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.panel-image img {
+	width: 100%;
+}
+
+/* about-us */
+.about-us {
+	grid-area: about-us;
+	margin: var(--sd-default-value) 0;
+}
+
+/* header-about-us-container */
+.header-about-us-container h2 {
+	font-size: var(--h2-font-size);
+	margin-bottom: 1.5rem;
+}
+
+.header-about-us-container span {
+	white-space: pre-line;
+	margin-bottom: var(--sd-default-value);
+	color: var(--color-primary);
+}
+
+/* about-us-content */
+.about-us-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.about-us-content p {
+	text-align: justify;
+}
+
+/* about-us-content-image */
+.about-us-content-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 670px;
+
+	margin: var(--md-default-value) 0;
+}
+
+.about-us-content-image img {
+	width: 100%;
+	border-radius: var(--sd-default-value);
+}
+
+/* postgraduate-program */
+.postgraduate-program {
+	grid-area: postgraduate-program;
+	margin: var(--sd-default-value) 0;
+}
+
+/* header-postgraduate-program */
+.header-postgraduate-program {
+	margin-bottom: var(--sd-default-value);
+}
+
+.header-postgraduate-program h2 {
+	font-size: var(--h2-font-size);
+	margin-bottom: 1.5rem;
+}
+
+.header-postgraduate-program span {
+	margin-bottom: var(--sd-default-value);
+	color: var(--color-primary);
+}
+
+/* posgraduate-program-info */
+.posgraduate-program-info {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(auto, 45%));
+	column-gap: var(--sd-default-value);
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* postgraduate-program-image */
+.postgraduate-program-image {
+	max-width: 500px;
+}
+
+.postgraduate-program-image img {
+	width: 100%;
+	border-radius: 1rem;
+}
+
+/* postgraduate-program-content */
+.postgraduate-program-content {
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+}
+
+.postgraduate-program-content p {
+	font-size: var(--sd-font-size);
+	text-align: justify;
+	margin-bottom: var(--sd-default-value);
+}
+
+/* postgraduate-btn-content */
+.postgraduate-btn-content {
+	margin-top: var(--sd-default-value);
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+}
+
+.postgraduate-btn-content a {
+	width: 45%;
+	padding: var(--sl-default-value) var(--sd-default-value);
+	background-color: var(--color-primary);
+
+	border: none;
+	border-radius: var(--sd-default-value);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-size: var(--sd-font-size);
+	color: var(--color-white);
+	font-weight: 700;
+}
+
+/* lectures */
+.lectures {
+	grid-area: lectures;
+	margin: var(--sd-default-value) 0;
+}
+
+/* header-lectures */
+.header-lectures h2 {
+	font-size: var(--h2-font-size);
+	margin-bottom: 1.5rem;
+}
+
+.header-lectures span {
+	margin-bottom: var(--sd-default-value);
+	color: var(--color-primary);
+}
+
+/* speakers-container */
+.speakers-container {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(50%, auto));
+	justify-items: center;
+	row-gap: var(--md-default-value);
+
+	margin: var(--sd-default-value) 0 0;
+}
+
+/* speaker-card */
+.speaker-card {
+	width: 450px;
+	padding: 4.5rem var(--sl-default-value);
+	background-color: var(--color-primary);
+	border-radius: var(--sl-default-value);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/* speaker-image */
+.speaker-image {
+	max-width: 214px;
+}
+
+.speaker-image img {
+	width: 100%;
+	border-radius: 50%;
+}
+
+/* lecture-title */
+.lecture-title {
+	margin: 2rem 0;
+}
+
+.lecture-title h3 {
+	font-size: var(--sd-font-size);
+	text-align: center;
+	white-space: pre-line;
+}
+
+/* lecture-and-speaker-content */
+.lecture-and-speaker-content {
+	margin: 2rem 0;
+	color: var(--color-white);
+	text-align: center;
+}
+
+.lecture-and-speaker-content p {
+	font-size: var(--md-font-size);
+	font-weight: 700;
+	margin: 1.5rem 0;
+}
+
+/* about-speaker-link */
+.about-speaker-link {
+	margin-top: var(--sl-default-value);
+}
+
+.about-speaker-link a {
+	width: 100%;
+	padding: 1.25rem 2rem;
+	background-color: var(--color-white);
+
+	border: none;
+	border-radius: var(--sd-default-value);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-size: var(--sd-font-size);
+	color: var(--color-primary);
+	font-weight: 700;
+}
+
+/* short-courses */
+.short-courses {
+	grid-area: short-courses;
+	margin: var(--sd-default-value) 0;
+	width: 100%;
+}
+
+/* header-short-courses */
+.header-short-courses h2 {
+	font-size: var(--h2-font-size);
+	margin-bottom: 1.5rem;
+}
+
+.header-short-courses span {
+	margin-bottom: var(--sd-default-value);
+	color: var(--color-primary);
+}
+
+/* short-courses-list-container */
+.short-courses-list-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+	row-gap: var(--sd-default-value);
+	column-gap: var(--sl-default-value);
+
+	margin: var(--sd-default-value) 0 0;
+}
+
+/* short-course-card */
+.short-course-card {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	border: 0.2rem solid var(--color-primary);
+	padding: var(--sl-default-value);
+
+	font-weight: 600;
+}
+
+/* short-course-order */
+.short-course-order span {
+	font-size: var(--md-font-size);
+	color: var(--color-primary);
+}
+
+/* short-course-title-and-date */
+.short-course-title-and-date {
+	display: flex;
+	align-items: center;
+	gap: 5rem;
+	margin: var(--sd-default-value) 0;
+}
+
+/* short-course-title */
+.short-course-title h3 {
+	font-size: var(--md-font-size);
+	font-weight: 700;
+	color: var(--color-black);
+}
+
+/* short-course-date */
+.short-course-date {
+	color: var(--color-primary);
+}
+
+.short-course-date p {
+	font-size: var(--sd-default-value);
+}
+
+/* short-course-speaker-and-schedule */
+.short-course-speaker-and-schedule span {
+	color: var(--color-primary);
+}
+
+/* short-course-speaker-and-schedule-content */
+.short-course-speaker-and-schedule-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* registration */
+.registration {
+	grid-area: registration;
+	margin: var(--sd-default-value) 0;
+}
+
+/* header-registration */
+.header-registration h2 {
+	font-size: var(--h2-font-size);
+	margin-bottom: 1.5rem;
+}
+
+.header-registration span {
+	margin-bottom: var(--sd-default-value);
+	color: var(--color-primary);
+}
+
+/* registration-info-container */
+.registration-info-container {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(auto, 45%));
+	column-gap: var(--sd-default-value);
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* registration-image */
+.registration-image {
+	max-width: 518px;
+}
+
+.registration-image img {
+	width: 100%;
+}
+
+/* registration-link */
+.registration-link {
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+}
+
+.registration-link p {
+	text-align: justify;
+	margin-bottom: var(--sd-default-value);
+}
+
+.registration-link .instructions-link {
+	text-decoration: underline;
+}
+
+/* registration-btn-content */
+.registration-btn-content {
+	margin-top: var(--sd-default-value);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.registration-btn-content a {
+	width: 45%;
+	padding: var(--sl-default-value) var(--sd-default-value);
+	background-color: var(--color-primary);
+
+	border: none;
+	border-radius: var(--sd-default-value);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-size: var(--sd-font-size);
+	color: var(--color-white);
+	font-weight: 700;
+}
+
+/* footer */
+.footer {
+	grid-area: footer;
+	margin: var(--sd-default-value) 0;
+}
+
+/* footer-logo-postgraduate */
+.footer-logo-postgraduate {
+	max-width: 105px;
+}
+
+.footer-logo-postgraduate img {
+	width: 100%;
+}
+
+/* footer-content */
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+
+	margin: var(--md-default-value) 0;
+}
+
+/* footer-adress-and-contact-container */
+.footer-adress-and-contact-container {
+	font-size: var(--sl-font-size);
+	font-weight: 600;
+	color: var(--color-primary);
+}
+
+.footer-adress-and-contact-container li {
+	margin-top: 1.25rem;
+	padding: 0.4rem 0.4rem 0.4rem 0;
+}
+
+.footer-adress-and-contact-container li:first-child {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+/* footer-social-media-info */
+.footer-social-media-info {
+	display: flex;
+	align-items: center;
+}
+
+.footer-social-media-info li {
+	margin-right: var(--sd-default-value);
+}
+
+.footer-social-media-info li:last-child {
+	margin-right: 0;
+}
+
+.footer-social-media-info li a i {
+	font-size: var(--icons-default-value);
+}
+
+/* responsiveness */
+@media screen and (max-width: 1080px) {
+	:root {
+		/* typography */
+		--h1-font-size: 2.8rem;
+		--h2-font-size: 3rem;
+	}
+
+	.header-container {
+		flex-direction: column;
+	}
+
+	.menu-container {
+		margin-top: var(--sd-default-value);
+	}
+
+	.logo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.menu li {
+		margin-right: var(--sl-default-value);
+	}
+
+	.menu li a:first-child {
+		padding-left: 0;
+	}
+
+	.panel-info {
+		grid-template-columns: repeat(2, minmax(auto, 40%));
+		column-gap: var(--sl-default-value);
+	}
+
+	.posgraduate-program-info {
+		grid-template-columns: 1fr;
+		justify-items: center;
+		column-gap: 0;
+		row-gap: var(--md-default-value);
+	}
+
+	.speakers-container,
+	.short-courses-list-container {
+		grid-template-columns: 1fr;
+	}
+
+	.registration-info-container {
+		grid-template-columns: 1fr;
+		row-gap: var(--md-default-value);
+		justify-items: center;
+	}
+
+	.registration-image {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	:root {
+		/* measures */
+		--sl-default-value: 1.5rem;
+		--sd-default-value: 2rem;
+		--md-default-value: 4rem;
+		--bgt-default-value: 6rem;
+	}
+
+	body {
+		font-size: 1.8rem;
+	}
+
+	.panel-info {
+		margin: var(--md-default-value) 0;
+		grid-template-columns: 1fr;
+
+		justify-items: center;
+		row-gap: var(--sd-default-value);
+	}
+
+	.panel-content h1 {
+		white-space: initial;
+		text-align: center;
+	}
+
+	.panel-image {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		margin-top: var(--sl-default-value);
+	}
+
+	.panel-image img {
+		width: 100%;
+	}
+
+	.about-us-content-image img {
+		width: 70%;
+	}
+
+	.postgraduate-program-content p {
+		font-size: 1.8rem;
+	}
+
+	.registration-image img {
+		width: 80%;
+	}
+
+	.footer {
+		margin: var(--md-default-value) 0;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	:root {
+		/* typography */
+		--sl-font-size: 1.25rem;
+		--sd-font-size: 1.5rem;
+		--md-font-size: 2rem;
+		--bgt-font-size: 3rem;
+
+		--h1-font-size: 3rem;
+		--h2-font-size: 2.5rem;
+
+		/* measures */
+		--sl-default-value: 1.5rem;
+		--sd-default-value: 4rem;
+		--md-default-value: 4rem;
+		--bgt-default-value: 6rem;
+
+		/* icons */
+		--icons-default-value: 4rem;
+	}
+
+	.logo img {
+		width: 80%;
+	}
+
+	.menu li {
+		margin-right: var(--sl-default-value);
+	}
+
+	.menu li a {
+		font-size: var(--sd-font-size);
+		padding: 0.8rem;
+	}
+
+	.menu li a:first-child {
+		padding-left: 0;
+	}
+
+	.panel-image img {
+		width: 80%;
+	}
+
+	.about-us-content p {
+		font-size: var(--sd-font-size);
+	}
+
+	.postgraduate-program-content p {
+		font-size: var(--sd-font-size);
+	}
+
+	.postgraduate-program-image {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.postgraduate-program-image img {
+		width: 70%;
+	}
+
+	.postgraduate-btn-content a,
+	.registration-btn-content a {
+		width: 50%;
+		padding: var(--sl-default-value) var(--sd-default-value);
+	}
+
+	.speaker-card {
+		width: 90%;
+	}
+
+	.short-course-title h3 {
+		font-size: var(--md-font-size);
+	}
+
+	.short-course-speaker p,
+	.short-course-schedule span {
+		font-size: var(--sd-font-size);
+	}
+
+	.footer-logo-postgraduate img {
+		width: 80%;
+	}
+
+	.footer-content {
+		flex-direction: column;
+	}
+
+	.footer-social-media-container {
+		margin-top: var(--bgt-default-value);
+	}
+}
+
+@media screen and (max-width: 430px) {
+	:root {
+		/* typography */
+		--sl-font-size: 1.15rem;
+		--sd-font-size: 1.25rem;
+		--md-font-size: 1.8rem;
+		--bgt-font-size: 2rem;
+
+		--h1-font-size: 2.5rem;
+		--h2-font-size: 2rem;
+
+		/* measures */
+		--sl-default-value: 1.5rem;
+		--sd-default-value: 4rem;
+	}
+
+	body {
+		font-size: var(--sd-font-size);
+	}
+
+	#container {
+		padding: 3rem 2%;
+	}
+
+	.short-course-title-and-date {
+		flex-direction: column;
+		align-items: initial;
+		gap: 0.8rem;
+	}
+
+	.short-course-date {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	:root {
+		/* typography */
+		--sl-font-size: 1rem;
+		--sd-font-size: 1.15rem;
+		--md-font-size: 1.8rem;
+		--bgt-font-size: 2rem;
+
+		--h1-font-size: 2.5rem;
+		--h2-font-size: 2rem;
+
+		/* measures */
+		--sl-default-value: 1rem;
+		--sd-default-value: 1.8rem;
+		--md-default-value: 2.8rem;
+		--bgt-default-value: 6rem;
+	}
+
+	body {
+		font-size: var(--sd-font-size);
+	}
+
+	.footer {
+		margin: var(--bgt-default-value) 0 var(--md-default-value);
+	}
+}

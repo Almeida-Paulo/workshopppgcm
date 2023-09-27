@@ -1,0 +1,172 @@
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\ajax\libs\font-awesome\5.8.2\css\all.min.css
+Content Type: text/css
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-brands-400.eot
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\ajax\libs\font-awesome\5.8.2\webfonts\fa-brands-400.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-brands-400.eot?
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\ajax\libs\font-awesome\5.8.2\webfonts\fa-brands-400-1.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-brands-400.svg
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\ajax\libs\font-awesome\5.8.2\webfonts\fa-brands-400.svg
+Content Type: image/svg+xml
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-brands-400.ttf
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\ajax\libs\font-awesome\5.8.2\webfonts\fa-brands-400.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-brands-400.woff
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\ajax\libs\font-awesome\5.8.2\webfonts\fa-brands-400.woff
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-brands-400.woff2
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\ajax\libs\font-awesome\5.8.2\webfonts\fa-brands-400.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-regular-400.eot
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\ajax\libs\font-awesome\5.8.2\webfonts\fa-regular-400.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-regular-400.eot?
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\ajax\libs\font-awesome\5.8.2\webfonts\fa-regular-400-1.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-regular-400.svg
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\ajax\libs\font-awesome\5.8.2\webfonts\fa-regular-400.svg
+Content Type: image/svg+xml
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-regular-400.ttf
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\ajax\libs\font-awesome\5.8.2\webfonts\fa-regular-400.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-regular-400.woff
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\ajax\libs\font-awesome\5.8.2\webfonts\fa-regular-400.woff
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-regular-400.woff2
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\ajax\libs\font-awesome\5.8.2\webfonts\fa-regular-400.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-solid-900.eot
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\ajax\libs\font-awesome\5.8.2\webfonts\fa-solid-900.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-solid-900.eot?
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\ajax\libs\font-awesome\5.8.2\webfonts\fa-solid-900-1.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-solid-900.svg
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\ajax\libs\font-awesome\5.8.2\webfonts\fa-solid-900.svg
+Content Type: image/svg+xml
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-solid-900.ttf
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\ajax\libs\font-awesome\5.8.2\webfonts\fa-solid-900.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-solid-900.woff
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\ajax\libs\font-awesome\5.8.2\webfonts\fa-solid-900.woff
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-solid-900.woff2
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\ajax\libs\font-awesome\5.8.2\webfonts\fa-solid-900.woff2
+Content Type: application/octet-stream
+
+Uri: https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDFwmRTM.ttf
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\s\nunito\v26\XRXI3I6Li01BKofiOc5wtlZ2di8HDFwmRTM.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDGUmRTM.ttf
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\s\nunito\v26\XRXI3I6Li01BKofiOc5wtlZ2di8HDGUmRTM.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshRTM.ttf
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\s\nunito\v26\XRXI3I6Li01BKofiOc5wtlZ2di8HDLshRTM.ttf
+Content Type: font/ttf
+
+Uri: https://ppgcmworkshop.netlify.app/
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\index.htm
+Content Type: text/html
+
+Uri: https://ppgcmworkshop.netlify.app/assets/banner-workshop-PPGCM-2022.ppt
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\assets\banner-workshop-PPGCM-2022.ppt
+Content Type: application/vnd.ms-powerpoint
+
+Uri: https://ppgcmworkshop.netlify.app/assets/normas-resumo-workshop-PPGCM-2022.pdf
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\assets\normas-resumo-workshop-PPGCM-2022.pdf
+Content Type: application/pdf
+
+Uri: https://ppgcmworkshop.netlify.app/assets/resumo-workshop-PPGCM-2022.docx
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\assets\resumo-workshop-PPGCM-2022.docx
+Content Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+
+Uri: https://ppgcmworkshop.netlify.app/css/index.css
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\css\index.css
+Content Type: text/css
+
+Uri: https://ppgcmworkshop.netlify.app/css/instructions.css
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\css\instructions.css
+Content Type: text/css
+
+Uri: https://ppgcmworkshop.netlify.app/images/cientista01.jpg
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\images\cientista01.jpg
+Content Type: image/jpeg
+
+Uri: https://ppgcmworkshop.netlify.app/images/cientista02.jpg
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\images\cientista02.jpg
+Content Type: image/jpeg
+
+Uri: https://ppgcmworkshop.netlify.app/images/logo.png
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\images\logo.png
+Content Type: image/png
+
+Uri: https://ppgcmworkshop.netlify.app/images/logoppgcm.png
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\images\logoppgcm.png
+Content Type: image/png
+
+Uri: https://ppgcmworkshop.netlify.app/images/palestrante01.png
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\images\palestrante01.png
+Content Type: image/png
+
+Uri: https://ppgcmworkshop.netlify.app/images/palestrante02.png
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\images\palestrante02.png
+Content Type: image/png
+
+Uri: https://ppgcmworkshop.netlify.app/images/palestrante03.png
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\images\palestrante03.png
+Content Type: image/png
+
+Uri: https://ppgcmworkshop.netlify.app/images/palestrante04.png
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\images\palestrante04.png
+Content Type: image/png
+
+Uri: https://ppgcmworkshop.netlify.app/images/palestrante05.png
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\images\palestrante05.png
+Content Type: image/png
+
+Uri: https://ppgcmworkshop.netlify.app/images/palestrante06.png
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\images\palestrante06.png
+Content Type: image/png
+
+Uri: https://ppgcmworkshop.netlify.app/images/palestrante07.png
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\images\palestrante07.png
+Content Type: image/png
+
+Uri: https://ppgcmworkshop.netlify.app/images/registration.png
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\images\registration.png
+Content Type: image/png
+
+Uri: https://ppgcmworkshop.netlify.app/images/workshop.png
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\images\workshop.png
+Content Type: image/png
+
+Uri: https://ppgcmworkshop.netlify.app/pages/instructions
+File Name: E:\Workshop\ppgcmworkshop.netlify.app\pages\instructions.html
+Content Type: text/html
+
