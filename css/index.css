@@ -746,13 +746,13 @@ span {
 @media screen and (max-width: 640px) {
 	:root {
 		/* typography */
-		--sl-font-size: 1.25rem;
-		--sd-font-size: 1.5rem;
-		--md-font-size: 2rem;
-		--bgt-font-size: 3rem;
+		--sl-font-size: 1.75rem;
+		--sd-font-size: 2rem;
+		--md-font-size: 2.5rem;
+		--bgt-font-size: 3.5rem;
 
-		--h1-font-size: 3rem;
-		--h2-font-size: 2.5rem;
+		--h1-font-size: 3.5rem;
+		--h2-font-size: 2.8rem;
 
 		/* measures */
 		--sl-default-value: 1.5rem;
@@ -838,13 +838,13 @@ span {
 @media screen and (max-width: 430px) {
 	:root {
 		/* typography */
-		--sl-font-size: 1.15rem;
-		--sd-font-size: 1.25rem;
-		--md-font-size: 1.8rem;
-		--bgt-font-size: 2rem;
+		--sl-font-size: 1.65rem;
+		--sd-font-size: 1.75rem;
+		--md-font-size: 2.5rem;
+		--bgt-font-size: 2.5rem;
 
-		--h1-font-size: 2.5rem;
-		--h2-font-size: 2rem;
+		--h1-font-size: 3rem;
+		--h2-font-size: 2.5rem;
 
 		/* measures */
 		--sl-default-value: 1.5rem;
