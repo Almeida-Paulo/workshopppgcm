@@ -29,7 +29,7 @@
 /* CSS reset */
 * {
 	margin: 0;
-	padding: 0 1.5rem 0 1.5rem;
+	padding: 0;
 	box-sizing: border-box;
 }
 
@@ -337,6 +337,10 @@ span {
 	.footer-social-media-container {
 		margin-top: var(--bgt-default-value);
 	}
+
+	#container {
+		max-width: 90%;
+	  }
 }
 
 @media screen and (max-width: 430px) {
@@ -366,7 +370,7 @@ span {
 		--sl-font-size: 1.65rem;
 		--sd-font-size: 1.55rem;
 		--md-font-size: 2.1rem;
-		--bgt-font-size: 2.3rem;
+		--bgt-font-size: 2rem;
 
 		--h1-font-size: 3.5rem;
 		--h2-font-size: 3.2rem;
