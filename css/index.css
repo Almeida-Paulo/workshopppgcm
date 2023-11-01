@@ -553,7 +553,7 @@ span {
 }
 
 .registration-btn-content a {
-	width: 50%;
+	width: 60%;
 	padding: var(--sl-default-value) var(--sd-default-value);
 	background-color: var(--color-primary);
 
@@ -805,7 +805,7 @@ span {
 
 	.postgraduate-btn-content a,
 	.registration-btn-content a {
-		width: 50%;
+		width: 60%;
 		padding: var(--sl-default-value) var(--sd-default-value);
 	}
 
