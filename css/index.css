@@ -764,6 +764,10 @@ span {
 		--icons-default-value: 4rem;
 	}
 
+	.event-info {
+		margin-top: 5%;
+	}
+
 	.logo img {
 		width: 80%;
 	}
