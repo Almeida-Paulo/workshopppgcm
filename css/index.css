@@ -524,6 +524,13 @@ span {
   tr:nth-child(even) {
 	background-color: #f2f2f2;
   }
+
+  .program-title {
+	text-align: center;
+	font-size: var(--md-font-size);
+	font-weight: bold;
+	margin-bottom: 2rem;
+  }
   
   @media screen and (max-width: 768px) {
   
