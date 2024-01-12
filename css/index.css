@@ -90,7 +90,7 @@ span {
 }
 
 .registration-closed-info span a {
-	display: flex;
+	display: none;
 	color: var(--color-white);
 	text-decoration: underline;
 }
