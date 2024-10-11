@@ -217,6 +217,7 @@ span {
 
 .about-us-content p {
 	text-align: justify;
+	margin-bottom: var(--sd-default-value);
 }
 
 /* about-us-content-image */
