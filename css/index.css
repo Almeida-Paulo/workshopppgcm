@@ -231,7 +231,7 @@ span {
 
 .about-us-content-image img {
 	width: 100%;
-	border-radius: var(--sd-default-value);
+	/*border-radius: var(--sd-default-value);*/
 }
 
 /* postgraduate-program */
@@ -271,7 +271,7 @@ span {
 
 .postgraduate-program-image img {
 	width: 100%;
-	border-radius: 1rem;
+	/*border-radius: 1rem;*/
 }
 
 /* postgraduate-program-content */
