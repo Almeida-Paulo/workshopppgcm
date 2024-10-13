@@ -462,6 +462,7 @@ span {
 .short-course-title-and-date {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 	gap: 5rem;
 	margin: var(--sd-default-value) 0;
 }
