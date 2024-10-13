@@ -95,31 +95,16 @@ span {
 	text-decoration: underline;
 }
 
-/* container */
-#container {
-	display: grid;
-	grid-template-areas:
-		"header"
-		"panel-info"
-		"about-us"
-		"postgraduate-program"
-		"lectures"
-		"short-courses"
-		"registration"
-		"footer";
-
-	max-width: 1250px;
-	margin: 0 auto;
-	padding: 3rem 2%;
-}
-
 /* header-container */
 .header-container {
+	width: 100%;
 	grid-area: header;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	background-color: #fff; /* Cor de fundo do header */
+	position: relative;
 }
 
 /* logo */
@@ -151,6 +136,24 @@ span {
 
 .menu li:last-child {
 	margin-right: 0;
+}
+
+/* container */
+#container {
+	display: grid;
+	grid-template-areas:
+		"header"
+		"panel-info"
+		"about-us"
+		"postgraduate-program"
+		"lectures"
+		"short-courses"
+		"registration"
+		"footer";
+
+	max-width: 1250px;
+	margin: 0 auto;
+	padding: 3rem 2%;
 }
 
 /* panel-info */
