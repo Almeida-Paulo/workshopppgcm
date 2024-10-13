@@ -715,6 +715,7 @@ span {
 
 	.menu-container {
 		margin-top: var(--sd-default-value);
+		align-items: center;
 	}
 
 	.logo {
