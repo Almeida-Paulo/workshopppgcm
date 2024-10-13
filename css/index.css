@@ -119,11 +119,12 @@ span {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* logo */
 .logo {
-	max-width: 350px;
+	max-width: 400px;
 }
 
 .logo img {
