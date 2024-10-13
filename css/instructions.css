@@ -245,8 +245,7 @@ span {
 }
 
 .footer-social-media-info li a i {
-	font-size: 2rem;
-	color: var(--color-primary);
+	font-size: var(--icons-default-value);
 }
 
 /* responsiveness */

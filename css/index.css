@@ -564,7 +564,7 @@ span {
 .footer-content {
 	display: flex;
 	justify-content: space-between;
-	align-items: flex-start;
+	align-items: center;
 
 	margin: var(--md-default-value) 0;
 }
