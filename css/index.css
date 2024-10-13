@@ -410,6 +410,90 @@ span {
 	font-weight: 700;
 }
 
+/* short-courses */
+.short-courses {
+	grid-area: short-courses;
+	margin: var(--sd-default-value) 0;
+	width: 100%;
+}
+
+/* header-short-courses */
+.header-short-courses h2 {
+	font-size: var(--h2-font-size);
+	margin-bottom: 1.5rem;
+}
+
+.header-short-courses span {
+	margin-bottom: var(--sd-default-value);
+	color: var(--color-primary);
+}
+
+/* short-courses-list-container */
+.short-courses-list-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+	row-gap: var(--sd-default-value);
+	column-gap: var(--sl-default-value);
+
+	margin: var(--sd-default-value) 0 0;
+}
+
+/* short-course-card */
+.short-course-card {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	border: 0.2rem solid var(--color-primary);
+	padding: var(--sl-default-value);
+
+	font-weight: 600;
+}
+
+/* short-course-order */
+.short-course-order span {
+	font-size: var(--md-font-size);
+	color: var(--color-primary);
+}
+
+/* short-course-title-and-date */
+.short-course-title-and-date {
+	display: flex;
+	align-items: center;
+	gap: 5rem;
+	margin: var(--sd-default-value) 0;
+}
+
+/* short-course-title */
+.short-course-title h3 {
+	font-size: var(--md-font-size);
+	font-weight: 700;
+	color: var(--color-black);
+}
+
+/* short-course-date */
+.short-course-date {
+	color: var(--color-primary);
+}
+
+.short-course-date p {
+	font-size: var(--sd-default-value);
+}
+
+/* short-course-speaker-and-schedule */
+.short-course-speaker-and-schedule span {
+	color: var(--color-primary);
+}
+
+/* short-course-speaker-and-schedule-content */
+.short-course-speaker-and-schedule-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 /* registration */
 .registration {
 	grid-area: registration;
