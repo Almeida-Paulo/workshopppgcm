@@ -106,10 +106,16 @@ span {
 
 /* header-container */
 .header-container {
+	width: 100%;
 	grid-area: header;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-top: 2rem;
+	padding: 2rem 5%;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	background-color: #fff; /* Cor de fundo do header */
+	position: relative;
 }
 
 /* logo */
