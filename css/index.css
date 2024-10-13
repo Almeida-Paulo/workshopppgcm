@@ -705,7 +705,10 @@ span {
 	}
 
 	.header-container {
-		flex-direction: column;
+		flex-direction: row; /* Garante que os itens continuem em linha */
+		flex-wrap: nowrap; /* Impede quebra de linha para os itens */
+		justify-content: space-between; /* Mantém o espaçamento entre os itens */
+		gap: 1rem; /* Espaçamento entre os itens do header */
 	}
 
 	.menu-container {
