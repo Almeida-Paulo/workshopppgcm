@@ -708,6 +708,7 @@ span {
 		flex-direction: row; /* Garante que os itens continuem em linha */
 		flex-wrap: nowrap; /* Impede quebra de linha para os itens */
 		justify-content: space-between; /* Mantém o espaçamento entre os itens */
+		align-items: center;
 		gap: 1rem; /* Espaçamento entre os itens do header */
 	}
 
