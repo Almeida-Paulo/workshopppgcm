@@ -476,10 +476,12 @@ span {
 /* short-course-date */
 .short-course-date {
 	color: var(--color-primary);
+	margin-left: auto;
 }
 
 .short-course-date p {
 	font-size: var(--sd-default-value);
+	margin-left: auto;
 }
 
 /* short-course-speaker-and-schedule */
