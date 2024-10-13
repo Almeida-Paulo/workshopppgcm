@@ -484,6 +484,7 @@ span {
 .short-course-date {
 	color: var(--color-primary);
 	margin-left: auto;
+	align-items: center;
 }
 
 .short-course-date p {
