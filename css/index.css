@@ -253,10 +253,10 @@ span {
     justify-content: space-around;
     align-items: center;
     margin: 20px auto;
-    width: 80%;
-    border-top: 3px solid #2563eb; /* Borda azul superior */
-    border-bottom: 3px solid #2563eb; /* Borda azul inferior */
-    padding: 20px 0;
+    width: 85%;
+    border-top: 2px solid #2563eb; /* Borda azul superior */
+    border-bottom: 2px solid #2563eb; /* Borda azul inferior */
+    padding: 40px 0;
 }
 
 .info-item {
@@ -265,8 +265,8 @@ span {
 }
 
 .info-item img {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     margin-bottom: 10px;
 }
 
