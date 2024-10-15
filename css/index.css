@@ -254,8 +254,7 @@ span {
     justify-content: space-around;
     align-items: center;
     margin: 20px auto;
-	border-collapse: collapse;
-    /*width: 85%;*/
+    width: 85%;
     border-top: 2px solid #012852; /* Borda azul superior */
     border-bottom: 2px solid #012852; /* Borda azul inferior */
     padding: 40px 0;
@@ -916,23 +915,6 @@ span {
 	.panel-image img {
 		width: 80%;
 	}
-
-	.info-table tbody {
-        display: flex;
-        flex-direction: column;  /* Empilha os itens verticalmente */
-        align-items: center;
-    }
-
-    .info-table tr {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .info-table td, .info-table th {
-        width: 100%;
-        text-align: center;  /* Centraliza o texto */
-    }
 
 	.about-us-content p {
 		font-size: var(--sd-font-size);
