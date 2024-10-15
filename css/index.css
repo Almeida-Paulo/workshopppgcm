@@ -209,7 +209,7 @@ span {
 
 .header-about-us-container span {
 	white-space: pre-line;
-	margin-bottom: var(--sd-default-value);
+	margin-bottom: 1rem;
 	color: var(--color-primary);
 }
 
@@ -246,7 +246,7 @@ span {
 .info-container {
     text-align: center;
     margin-top: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 150px;
 }
 
 .info-table {
