@@ -2,7 +2,7 @@
 	font-size: 10px;
 
 	/* colors */
-	--color-primary: #012852;
+	--color-primary: #080a52;
 	--color-secondary: #062c53;
 	--color-white: #fff;
 	--color-black: #00020a;
@@ -209,7 +209,7 @@ span {
 
 .header-about-us-container span {
 	white-space: pre-line;
-	margin-bottom: 1rem;
+	margin-bottom: var(--sd-default-value);
 	color: var(--color-primary);
 }
 
@@ -239,64 +239,6 @@ span {
 .about-us-content-image img {
 	width: 100%;
 	/*border-radius: var(--sd-default-value);*/
-}
-
-
-/*info-table tabela de informações*/
-.info-container {
-    text-align: center;
-    margin-top: 50px;
-	margin-bottom: 150px;
-}
-
-.info-table {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 20px auto;
-    width: 85%;
-    border-top: 2px solid #012852; /* Borda azul superior */
-    border-bottom: 2px solid #012852; /* Borda azul inferior */
-    padding: 40px 0;
-}
-
-.info-item {
-    text-align: center;
-    padding: 10px;
-}
-
-.info-item img {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 10px;
-}
-
-.info-item h3 {
-    font-size: 20px; /* Aumentado para ficar mais próximo ao modelo */
-    font-weight: 600;
-    margin-bottom: 5px;
-    color: #333;
-}
-
-.info-item p {
-    font-size: 16px; /* Aumentado o texto também para melhor visibilidade */
-    color: #555;
-}
-
-.btn-tarifas {
-    display: inline-block;
-    padding: 8px 15px;
-    background-color: #012852;
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 5px;
-    margin-top: 5px;
-    font-weight: bold;
-}
-
-.btn-tarifas:hover {
-    background-color: #124983;
 }
 
 /* postgraduate-program */
