@@ -241,6 +241,59 @@ span {
 	/*border-radius: var(--sd-default-value);*/
 }
 
+
+/*info-table tabela de informações*/
+.info-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.info-item {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.info-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.info-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.info-item p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.btn-tarifas {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3b82f6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn-tarifas:hover {
+    background-color: #2563eb;
+}
+
 /* postgraduate-program */
 .postgraduate-program {
 	grid-area: postgraduate-program;
