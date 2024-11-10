@@ -99,7 +99,6 @@ span {
 #container {
 	display: grid;
 	grid-template-areas:
-		"header"
 		"panel-info"
 		"about-us"
 		"postgraduate-program"
