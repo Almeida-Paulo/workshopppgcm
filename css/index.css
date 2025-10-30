@@ -186,7 +186,7 @@ span {
 
 /* panel-image */
 .panel-image {
-	max-width: 200px;
+	max-width: 400px;
 	display: flex;
 	justify-content: flex-end;
 }
