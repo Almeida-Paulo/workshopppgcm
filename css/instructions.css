@@ -86,7 +86,7 @@ span {
 }
 
 .registration-closed-info span a {
-	display: none; /*flex;*/
+	display: flex; /*flex;*/
 	color: var(--color-white);
 	text-decoration: underline;
 }
